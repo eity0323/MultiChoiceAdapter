@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/actionMode_arrayAdapter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有ActionMode的ArrayAdapter" 
+        android:onClick="buttonListener"/>
+
+    <Button
+        android:id="@+id/normal_arrayAdapter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通的ArrayAdapter" 
+        android:onClick="buttonListener"/>
+    
+    <Button
+        android:id="@+id/actionMode_baseAdapter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="有ActionMode的BaseAdapter" 
+        android:onClick="buttonListener"/>
+
+    <Button
+        android:id="@+id/normal_baseAdapter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通的BaseAdapter" 
+        android:onClick="buttonListener"/>
+    
+    <Button
+        android:id="@+id/actionMode_gridAdapter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="有ActionMode的GridView" 
+        android:onClick="buttonListener"/>
+
+</LinearLayout>
