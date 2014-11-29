@@ -92,6 +92,7 @@ public class GridViewTestActvity extends ActionBarActivity{
 	        }
 	        if (item.getItemId() == R.id.menu_discard) {
 	        	//TODO:删除选中的元素
+	        	Toast.makeText(getContext(), "未实现，请自行实现", 0).show();
 	            return true;
 	        }
 			return false;

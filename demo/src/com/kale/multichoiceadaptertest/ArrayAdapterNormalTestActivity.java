@@ -63,7 +63,7 @@ public class ArrayAdapterNormalTestActivity extends Activity{
 			 */
 			@Override
 			public void onSelectedStateChanged(int checkedItemCount) {
-				if (checkedItemCount != 0) {
+				if (checkedItemCount > 0) {
 					settingLL.setVisibility(View.VISIBLE);
 				}
 				else {

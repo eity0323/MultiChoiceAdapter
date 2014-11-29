@@ -237,6 +237,7 @@ public class BaseAdapterNormalTestActivity extends Activity{
         //通过判断名字来remove掉这些items
         // TODO:删除某些元素，因为这里的数据源是String[]所以没有链表那样好删除，就没去实现。
 		//实际中：推荐用链表来动态删除元素，在删除时需要注意的是最好以唯一的id，如position来进行删除
+		Toast.makeText(getApplicationContext(), "未实现，请自行实现", 0).show();
         cancleAll(adapter);
     }
 	
